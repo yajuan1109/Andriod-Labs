@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:rowCount = "4"
+    android:columnCount="2"
+    tools:context=".MainActivity"
+    >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_gravity="fill"
+        android:layout_columnSpan="2"
+        android:layout_height="wrap_content"
+        android:text="@string/introMessage"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill"
+        android:text="@string/buttonText"
+        />
+
+    <CheckBox
+        android:id="@+id/checkbox"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill"
+        android:text="@string/checkBoxText"
+        />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_gravity="fill"
+        app:srcCompat="@drawable/flag"
+        tools:ignore="SpeakableTextPresentCheck"
+        tools:srcCompat="@drawable/flag" />
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_horizontal"
+        android:text="@string/switchText">
+
+    </androidx.appcompat.widget.SwitchCompat>
+
+    <EditText
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill"
+        android:layout_columnSpan="2"
+        android:inputType="textPersonName|textCapWords"
+        android:hint="@string/textHint"
+        android:minHeight="48dp"
+        android:importantForAutofill="no"/>
+
+
+</GridLayout>
