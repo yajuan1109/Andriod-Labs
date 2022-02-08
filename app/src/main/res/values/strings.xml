@@ -5,4 +5,8 @@
     <string name="checkBoxText">Check this out!</string>
     <string name="switchText">Switch on / off</string>
     <string name="textHint">Type Here</string>
+    <string name="toastMsg">Here is more information</string>
+    <string name="snackBarOn">The switch is now on</string>
+    <string name="snackBarOff">The switch is now off</string>
+    <string name="undo">Undo</string>
 </resources>

@@ -22,20 +22,19 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_below="@id/textView"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_below="@id/textView"
         android:layout_alignParentStart="true"
         android:layout_toStartOf="@id/placeholder"
-        android:text="@string/buttonText"
-        />
+        android:text="@string/buttonText" />
 
     <CheckBox
         android:id="@+id/checkbox"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_below="@id/textView"
-        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
         android:layout_toEndOf="@id/placeholder"
         android:text="@string/checkBoxText" />
 

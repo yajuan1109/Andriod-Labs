@@ -6,4 +6,8 @@
     <string name="checkBoxText">勾选此项！</string>
     <string name="switchText">开/关</string>
     <string name="textHint">在此输入</string>
+    <string name="toastMsg">更多信息</string>
+    <string name="snackBarOn">已勾选</string>
+    <string name="snackBarOff">未勾选</string>
+    <string name="undo">撤销</string>
 </resources>
